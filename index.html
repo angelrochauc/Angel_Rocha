@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="img/angel.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Angel Rocha Desarrollador Web</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>AR</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a></li>
+                            
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://api.whatsapp.com/send?phone=573104866092"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://github.com/angelrochauc/"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/%C3%A1ngel-junior-rocha-guerrero-822732117/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <h2>Soy <span>Angel Rocha</span>, Desarrollador Web</h2>
+                <p class="descripcion">Tecnológo en desarrollo de software </p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/Programador.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Angel Rocha</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <p>Estar entre los 3 mejores promedios de mi corte, habla de mi dedicación, empeño, capacidad, responsabilidad, cualidades que sin duda aplicare en el ámbito laboral, 
+                tengo las cualidades y competencias para desarrollarme en el ámbito laboral, soy autodidacta y emprendedor.</p>
+            <a href="https://www.linkedin.com/in/%C3%A1ngel-junior-rocha-guerrero-822732117/">LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Habilidades</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-html5 fa-2x"></i></span>
+                <h4>HTML5</h4>
+               
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-css3-alt fa-2x"></i></span>
+                <h4>CSS3</h4>
+    
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-js fa-2x"></i></span>
+                <h4>Javascript</h4>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-java fa-2x"></i></span>
+                <h4>Java</h4>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-angular fa-2x"></i></span>
+                <h4>Angular</h4>
+               
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-bootstrap fa-2x"></i></span>
+                <h4>Bootstrap</h4>
+               
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-github fa-2x"></i></span>
+                <h4>Github</h4>
+               
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-node-js fa-2x"></i></span>
+                <h4>Nodejs</h4>
+               
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-php fa-2x"></i></span>
+                <h4>PHP</h4>
+               
+            </div>
+            
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-python fa-2x"></i></span>
+                <h4>Python</h4>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S 
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>-->
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+               <a href="https://engelbertgonzalez.com/"> <img src="img/img1.png" alt=""></a>
+                <div class="info">
+                    <h4>Engelbert González Mentor & Coach</h4>
+                    <p>Como Empleado</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://tiempodeliderazgo.com/"> <img src="img/img2.png" alt=""></a>
+                <div class="info">
+                    <h4>Tiempo de Liderazgo</h4>
+                    <p>Como Empleado</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://esdelider.com/"> <img src="img/img3.png" alt=""></a>
+                <div class="info">
+                    <h4>EsDELider</h4>
+                    <p>Como Empleado</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://rentacarsolynieve.com/">  <img src="img/img4.png" alt=""></a>
+                <div class="info">
+                    <h4>SOL Y NIEVE RENT-A-CAR</h4>
+                    <p>Como Empleado</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://angelrochauc.github.io/portafolio/"> <img src="img/img5.png" alt=""></a>
+                <div class="info">
+                    <h4>Portafolio</h4>
+                    <p>Como Estudiante</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://angelrochauc.github.io/LandingPage/"> <img src="img/img6.png" alt=""></a>
+                <div class="info">
+                    <h4>Landing Page</h4>
+                    <p>Como Estudiante</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://angelrochauc.github.io/SMACSS/"> <img src="img/img7.png" alt=""></a>
+                <div class="info">
+                    <h4>SMACSS</h4>
+                    <p>Como Estudiante</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://angelrochauc.github.io/DragAndDrop/"> <img src="img/img8.png" alt=""></a>
+                <div class="info">
+                    <h4>DragAndDrop</h4>
+                    <p>Como Estudiante</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://angelrochauc.github.io/Factura/"><img src="img/img9.png" alt=""></a>
+                <div class="info">
+                    <h4>Factura</h4>
+                    <p>Como Estudiante</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O 
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>-->
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="https://api.whatsapp.com/send?phone=573104866092"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://github.com/angelrochauc/"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/%C3%A1ngel-junior-rocha-guerrero-822732117/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
